@@ -3,29 +3,29 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>latrobe-ict-web.github.io/style-guide/categories/</loc>
+    <loc>https://latrobe-ict-web.github.io/style-guide/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>latrobe-ict-web.github.io/style-guide/colour/</loc>
+    <loc>https://latrobe-ict-web.github.io/style-guide/colour/</loc>
   </url>
   
   <url>
-    <loc>latrobe-ict-web.github.io/style-guide/grid/</loc>
+    <loc>https://latrobe-ict-web.github.io/style-guide/grid/</loc>
   </url>
   
   <url>
-    <loc>latrobe-ict-web.github.io/style-guide/</loc>
+    <loc>https://latrobe-ict-web.github.io/style-guide/</loc>
   </url>
   
   <url>
-    <loc>latrobe-ict-web.github.io/style-guide/tags/</loc>
+    <loc>https://latrobe-ict-web.github.io/style-guide/tags/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>latrobe-ict-web.github.io/style-guide/typography/</loc>
+    <loc>https://latrobe-ict-web.github.io/style-guide/typography/</loc>
   </url>
   
 </urlset>

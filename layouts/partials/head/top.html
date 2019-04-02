@@ -11,8 +11,10 @@
     <link rel="manifest" href="site.webmanifest">
     <link rel="apple-touch-icon" href="icon.png">
     <!-- Place favicon.ico in the root directory -->
-    <link rel="stylesheet" href="https://{{ .Site.BaseURL }}css/ltu-v0.1.199.css">
-    <link rel="stylesheet" href="https://{{ .Site.BaseURL }}css/style-guide.css">
+    <link rel="stylesheet" href="{{ .Site.BaseURL }}css/ltu-v0.1.199.css">
+    <link rel="stylesheet" href="{{ .Site.BaseURL }}css/style-guide.css">
+    {{ $style := resources.Get "sass/main.scss" | resources.ToCSS }}
+    <link rel="stylesheet" href="{{ $style.Permalink }}">
 </head>
 
 <body class="standard_page">
