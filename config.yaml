@@ -1,0 +1,4 @@
+baseURL: "latrobe-ict-web.github.io/style-guide/"
+languageCode: en
+title: "La Trobe Design System"
+publishDir: docs
