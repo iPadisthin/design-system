@@ -7,7 +7,7 @@ https://latrobe-ict-web.github.io/style-guide/
 To use this you must install HUGO: https://gohugo.io/getting-started/installing/
 
 ### For local development:
-open terminal at folder and run hugo server
+open terminal at folder and run: hugo server
 
 ### To build and deploy
 make sure build.sh is executable: chmod +x build.sh
