@@ -124,6 +124,17 @@ pre.sg, pre.sg code {
     margin-right: 12px;
     padding: 4px;
 }
+.sg-alert {
+    border: 1px solid red;
+    padding: 16px;
+}
+.sg-alert::before {
+    content: 'Alert';
+    display: inline-block;
+    background: #f4f4f4;
+    margin-right: 12px;
+    padding: 4px;
+}
 
 .sg-sample {
     position: relative;

@@ -11,6 +11,9 @@ open terminal at folder and run: hugo server
 
 ### To build and deploy
 make sure build.sh is executable: chmod +x build.sh
+
 stop hugo sever: CTRL+C
+
 run build.sh: ./build.sh
+
 commit code to GitHub
