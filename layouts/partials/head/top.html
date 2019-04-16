@@ -14,6 +14,7 @@
     <!-- <link rel="stylesheet" href="{{ .Site.BaseURL }}css/ltu-v0.1.203.css"> -->
     {{ $style := resources.Get "css/ltu.scss" | resources.ToCSS }}
     <link rel="stylesheet" href="{{ $style.Permalink }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.5.0/themes/prism.min.css">
     <link rel="stylesheet" href="{{ .Site.BaseURL }}css/style-guide.css">
 </head>
 
