@@ -1,16 +1,33 @@
-
-                    <div class="clear"></div>
-                </div><!-- End bodyContent -->
-            </div> <!-- End main-content -->
-        </section>
-        <!--END LAYOUT-->
-
-        <div class="clear"></div>
-    </main>
-    <!--endnoindex-->
-
-    </div> <!-- WRAP -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.5.0/prism.min.js"></script>
+    <script
+  src="https://code.jquery.com/jquery-2.2.4.min.js"
+  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+  crossorigin="anonymous"></script>
+    <script src="{{ .Site.BaseURL }}js/iframe-resizer/iframeResizer.min.js"></script>
+    <script>
+         iFrameResize({log:true});
+        /*
+         * Resize iframes to fit content - https://www.456bereastreet.com/archive/201112/how_to_adjust_an_iframe_elements_height_to_fit_its_content/
+
+        function setIframeHeight(iframe) {
+        	if (iframe) {
+        		var iframeWin = iframe.contentWindow || iframe.contentDocument.parentWindow;
+        		if (iframeWin.document.body) {
+        			iframe.height = iframeWin.document.documentElement.scrollHeight || iframeWin.document.body.scrollHeight;
+        		}
+        	}
+        };
+        $(window).load(function () {
+            $('iframe.sample').each(function() {
+	            setIframeHeight(document.getElementById($(this).attr('id')));
+            });
+        });
+        $( window ).resize(function() {
+            $('iframe.sample').each(function() {
+	            setIframeHeight(document.getElementById($(this).attr('id')));
+            });
+        });*/
+    </script>
 </body>
 
 </html>

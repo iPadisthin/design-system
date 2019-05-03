@@ -1,0 +1,8 @@
+{{ $file := path.Join "code-snippets/" (.Get "snippet") }}
+<div class="sg-sample {{ .Get "background" }}">
+    <a class="sg-snippet-file" href="{{ .Site.BaseURL }}{{ $file }}" target="_blank" title="Open in new tab">{{ $file }}</a>
+    <iframe id="{{ .Get "snippet" }}" src="{{ .Site.BaseURL }}{{ $file }}" style="width: 100%;" scrolling="no"></iframe>
+    <pre><code class="language-html">
+{{ with .Site.GetPage $file }}{{.RawContent}}{{end}}
+    </code></pre>
+</div>
