@@ -3,11 +3,32 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://latrobe-ict-web.github.io/style-guide/code-snippets/banner/</loc>
+  </url>
+  
+  <url>
+    <loc>https://latrobe-ict-web.github.io/style-guide/code-snippets/homepage-banner/</loc>
+  </url>
+  
+  <url>
     <loc>https://latrobe-ict-web.github.io/style-guide/banner/</loc>
   </url>
   
   <url>
+    <loc>https://latrobe-ict-web.github.io/style-guide/code-snippets/blockquote/</loc>
+  </url>
+  
+  <url>
+    <loc>https://latrobe-ict-web.github.io/style-guide/buttons/</loc>
+  </url>
+  
+  <url>
     <loc>https://latrobe-ict-web.github.io/style-guide/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://latrobe-ict-web.github.io/style-guide/code-snippets/</loc>
     <priority>0</priority>
   </url>
   
@@ -20,7 +41,19 @@
   </url>
   
   <url>
+    <loc>https://latrobe-ict-web.github.io/style-guide/code-snippets/headings/</loc>
+  </url>
+  
+  <url>
+    <loc>https://latrobe-ict-web.github.io/style-guide/code-snippets/ordered-list/</loc>
+  </url>
+  
+  <url>
     <loc>https://latrobe-ict-web.github.io/style-guide/</loc>
+  </url>
+  
+  <url>
+    <loc>https://latrobe-ict-web.github.io/style-guide/code-snippets/pull-quote/</loc>
   </url>
   
   <url>
@@ -34,6 +67,10 @@
   
   <url>
     <loc>https://latrobe-ict-web.github.io/style-guide/typography/</loc>
+  </url>
+  
+  <url>
+    <loc>https://latrobe-ict-web.github.io/style-guide/code-snippets/unordered-list/</loc>
   </url>
   
 </urlset>

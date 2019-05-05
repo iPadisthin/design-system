@@ -1,6 +1,5 @@
 <!doctype html>
-<html class="no-js" lang="en">
-
+<html lang="en">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -8,17 +7,13 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <link rel="manifest" href="site.webmanifest">
-    <link rel="apple-touch-icon" href="icon.png">
-    
-    
-    
-    <link rel="stylesheet" href="https://latrobe-ict-web.github.io/style-guide/css/ltu.css?v=1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.5.0/themes/prism.min.css">
-    <link rel="stylesheet" href="https://latrobe-ict-web.github.io/style-guide/css/style-guide.css">
+    <link rel="stylesheet" href="https://latrobe-ict-web.github.io/style-guide/css/style-guide.css?v=1557098528">
+    
+    <link rel="stylesheet" href="https://latrobe-ict-web.github.io/style-guide/css/ltuwrapped.css?v=1557098528">
 </head>
 
-<body class="standard_page">
+<body>
     <div class="sg-menu">
     <label for="sg-menu" class="sg-menu-toggle">Menu</label> Latrobe web design system
     <input type="checkbox" id="sg-menu" />
@@ -35,6 +30,7 @@
         <p>Elements</p>
         <ul>
             <li><a href="https://latrobe-ict-web.github.io/style-guide/text">Text</a></li>
+            <li><a href="https://latrobe-ict-web.github.io/style-guide/buttons">Buttons</a></li>
         </ul>
         <p>Components</p>
         <p>Blocks</p>
@@ -45,16 +41,6 @@
     </nav>
 </div>
 
-    <div class="wrapper Live a549405"> 
-        <main id="content" role="main">
-            
-            
-            
-            
-            <section class="layout">
-                <div class="main-content">
-                    <div id="bodyContent" class="content-wrapper">
-                        
 
 <h1>Colour</h1>
 
@@ -91,19 +77,33 @@
 <p><span class="color-box" style="background: #cc0000"></span>#cc0000<p>
 
 
-
-                    <div class="clear"></div>
-                </div>
-            </div> 
-        </section>
-        
-
-        <div class="clear"></div>
-    </main>
-    
-
-    </div> 
+    <script
+    src="https://code.jquery.com/jquery-2.2.4.min.js"
+    integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+    crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.5.0/prism.min.js"></script>
+    <script>
+        function setIframeHeight(iframe) {
+        	if (iframe) {
+        		var iframeWin = iframe.contentWindow || iframe.contentDocument.parentWindow;
+        		if (iframeWin.document.body) {
+        			iframe.height = iframeWin.document.documentElement.scrollHeight || iframeWin.document.body.scrollHeight;
+        		}
+        	}
+        };
+        $(window).load(function () {
+            $('iframe').each(function () {
+                var id = $(this).attr('id');
+                setIframeHeight(document.getElementById(id));
+            });
+        });
+        $(window).resize(function () {
+            $('iframe').each(function () {
+                var id = $(this).attr('id');
+                setIframeHeight(document.getElementById(id));
+            });
+        });
+    </script>
 </body>
 
 </html>

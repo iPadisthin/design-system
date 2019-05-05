@@ -1,6 +1,5 @@
 <!doctype html>
-<html class="no-js" lang="en">
-
+<html lang="en">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -8,17 +7,13 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <link rel="manifest" href="site.webmanifest">
-    <link rel="apple-touch-icon" href="icon.png">
-    
-    
-    
-    <link rel="stylesheet" href="https://latrobe-ict-web.github.io/style-guide/css/ltu.css?v=1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.5.0/themes/prism.min.css">
-    <link rel="stylesheet" href="https://latrobe-ict-web.github.io/style-guide/css/style-guide.css">
+    <link rel="stylesheet" href="https://latrobe-ict-web.github.io/style-guide/css/style-guide.css?v=1557098528">
+    
+    <link rel="stylesheet" href="https://latrobe-ict-web.github.io/style-guide/css/ltuwrapped.css?v=1557098528">
 </head>
 
-<body class="standard_page">
+<body>
     <div class="sg-menu">
     <label for="sg-menu" class="sg-menu-toggle">Menu</label> Latrobe web design system
     <input type="checkbox" id="sg-menu" />
@@ -35,6 +30,7 @@
         <p>Elements</p>
         <ul>
             <li><a href="https://latrobe-ict-web.github.io/style-guide/text">Text</a></li>
+            <li><a href="https://latrobe-ict-web.github.io/style-guide/buttons">Buttons</a></li>
         </ul>
         <p>Components</p>
         <p>Blocks</p>
@@ -45,41 +41,28 @@
     </nav>
 </div>
 
-    <div class="wrapper Live a549405"> 
-        <main id="content" role="main">
-            
-            
-            
-            
-            <section class="layout">
-                <div class="main-content">
-                    <div id="bodyContent" class="content-wrapper">
-                        
 
 <h1>Text</h1>
 
     <h2>Headings and paragraphs</h2>
-<div class="sg-sample">
-    <h1>This is a heading 1 &lt;h1&gt;</h1>
-    <h2>This is a heading 2 &lt;h2&gt;</h2>
-    <h3>This is a heading 3 &lt;h3&gt;</h3>
-    <h4>This is a heading 4 &lt;h4&gt;</h4>
-    <h5>This is a heading 5 &lt;h5&gt;</h5>
-    <h6>This is a heading 6 &lt;h6&gt;</h6>
-    <p>This is a paragraph &lt;p&gt;. The quick brown fox jumps over the lazy dog. Here is <a href="https://google.com">a link</a> in the middle. I watched the storm, so beautiful yet terrific.</p>
 
-<pre class="sg-code"><code class="language-html">
-&lt;h1&gt;This is a heading 1&lt;/h1&gt;
-&lt;h2&gt;This is a heading 2&lt;/h2&gt;
-&lt;h3&gt;This is a heading 3&lt;/h3&gt;
-&lt;h4&gt;This is a heading 4&lt;/h4&gt;
-&lt;h5&gt;This is a heading 5&lt;/h5&gt;
-&lt;h6&gt;This is a heading 6&lt;/h6&gt;
-&lt;p&gt;This is a paragraph. The quick brown fox jumps over the lazy dog. Here is &lt;a href=&quot;https://google.com&quot;&gt;a link&lt;/a&gt; in the middle. I watched the storm, so beautiful yet terrific.&lt;/p&gt;
-</code></pre>
+<div class="sg-sample ">
+    <a class="sg-snippet-file" href="https://latrobe-ict-web.github.io/style-guide/code-snippets/headings" target="_blank" title="Open in new tab">Preview in new window</a>
+    <iframe id="headings" src="https://latrobe-ict-web.github.io/style-guide/code-snippets/headings" width="100%" style="width: 100%; border: 0;"></iframe>
+    <pre><code class="language-html">
+&lt;h1&gt;This is a heading 1 &amp;lt;h1&amp;gt;&lt;/h1&gt;
+&lt;h2&gt;This is a heading 2 &amp;lt;h2&amp;gt;&lt;/h2&gt;
+&lt;h3&gt;This is a heading 3 &amp;lt;h3&amp;gt;&lt;/h3&gt;
+&lt;h4&gt;This is a heading 4 &amp;lt;h4&amp;gt;&lt;/h4&gt;
+&lt;h5&gt;This is a heading 5 &amp;lt;h5&amp;gt;&lt;/h5&gt;
+&lt;h6&gt;This is a heading 6 &amp;lt;h6&amp;gt;&lt;/h6&gt;
+&lt;p&gt;This is a paragraph &amp;lt;p&amp;gt;. The quick brown fox jumps over the lazy dog. Here is &lt;a href=&#34;https://google.com&#34;&gt;a link&lt;/a&gt; in the middle. I watched the storm, so beautiful yet terrific.&lt;/p&gt;
+
+    </code></pre>
 </div>
+
 <h3>Font styles</h3>
-<table>
+<table class="sg-table">
     <thead>
         <tr><th>Tag</th><th>Font</th><th>Size / Line height <br>(Mobile to 1400px viewport)</th><th>Size / Line height <br>(&gt;1400px viewport)</th><th>Weight</th></tr>
     </thead>
@@ -96,25 +79,13 @@
 
 
 <h2>Lists</h2>
-<div class="sg-sample">
-<p>Ordered list:</p>
-<ol>
-    <li>list item 1</li>
-    <li>list item 2
-        <ol>
-            <li>Nested
-                <ul>
-                    <li>Nested un-ordered list</li>
-                    <li>Can go in here also</li>
-                </ul>
-            </li>
-        </ol>
-    </li>
-    <li>list item 3</li>
-    <li>list item 4</li>
-</ol>
-<pre class="sg-code"><code class="language-html">
-&lt;p&gt;Ordered list:&lt;/p&gt;
+<h3>Ordered lists</h3>
+
+<div class="sg-sample ">
+    <a class="sg-snippet-file" href="https://latrobe-ict-web.github.io/style-guide/code-snippets/ordered-list" target="_blank" title="Open in new tab">Preview in new window</a>
+    <iframe id="ordered-list" src="https://latrobe-ict-web.github.io/style-guide/code-snippets/ordered-list" width="100%" style="width: 100%; border: 0;"></iframe>
+    <pre><code class="language-html">
+&lt;p&gt;Follow these steps:&lt;/p&gt;
 &lt;ol&gt;
     &lt;li&gt;list item 1&lt;/li&gt;
     &lt;li&gt;list item 2
@@ -130,25 +101,17 @@
     &lt;li&gt;list item 3&lt;/li&gt;
     &lt;li&gt;list item 4&lt;/li&gt;
 &lt;/ol&gt;
-</code></pre>
-<p>Unordered list:</p>
-<ul>
-    <li>list item 1</li>
-    <li>list item 2
-        <ul>
-            <li>Nested
-                <ol>
-                    <li>Nested ordered list</li>
-                    <li>Can go in here also</li>
-                </ol>
-            </li>
-        </ul>
-    </li>
-    <li>list item 3</li>
-    <li>list item 4</li>
-</ul>
-<pre class="sg-code"><code class="language-html">
-&lt;p&gt;Unordered list:&lt;/p&gt;
+
+    </code></pre>
+</div>
+
+<h3>Unordered lists</h3>
+
+<div class="sg-sample ">
+    <a class="sg-snippet-file" href="https://latrobe-ict-web.github.io/style-guide/code-snippets/unordered-list" target="_blank" title="Open in new tab">Preview in new window</a>
+    <iframe id="unordered-list" src="https://latrobe-ict-web.github.io/style-guide/code-snippets/unordered-list" width="100%" style="width: 100%; border: 0;"></iframe>
+    <pre><code class="language-html">
+&lt;p&gt;My shopping list:&lt;/p&gt;
 &lt;ul&gt;
     &lt;li&gt;list item 1&lt;/li&gt;
     &lt;li&gt;list item 2
@@ -164,28 +127,36 @@
     &lt;li&gt;list item 3&lt;/li&gt;
     &lt;li&gt;list item 4&lt;/li&gt;
 &lt;/ul&gt;
-</code></pre>
+
+    </code></pre>
 </div>
 
+
 <h2>Block quote</h2>
-<div class="sg-sample">
-<blockquote>
-    <p>The quick brown fox jumps over the lazy dog</p>
-</blockquote>
-<pre class="sg-code"><code class="language-html">
+
+<div class="sg-sample ">
+    <a class="sg-snippet-file" href="https://latrobe-ict-web.github.io/style-guide/code-snippets/blockquote" target="_blank" title="Open in new tab">Preview in new window</a>
+    <iframe id="blockquote" src="https://latrobe-ict-web.github.io/style-guide/code-snippets/blockquote" width="100%" style="width: 100%; border: 0;"></iframe>
+    <pre><code class="language-html">
 &lt;blockquote&gt;
     &lt;p&gt;The quick brown fox jumps over the lazy dog&lt;/p&gt;
 &lt;/blockquote&gt;
-</code></pre>
+
+    </code></pre>
 </div>
 
+
 <h2>Pull quote</h2>
-<div class="sg-sample">
-<p class="pullquote">Pullquote is a paragraph with class="pullquote"</p>
-<pre class="sg-code"><code class="language-html">
-&lt;p class=&quot;pullquote&quot;&gt;Pullquote is a paragraph with class=&quot;pullquote&quot;&lt;/p&gt;
-</code></pre>
+
+<div class="sg-sample ">
+    <a class="sg-snippet-file" href="https://latrobe-ict-web.github.io/style-guide/code-snippets/pull-quote" target="_blank" title="Open in new tab">Preview in new window</a>
+    <iframe id="pull-quote" src="https://latrobe-ict-web.github.io/style-guide/code-snippets/pull-quote" width="100%" style="width: 100%; border: 0;"></iframe>
+    <pre><code class="language-html">
+&lt;p class=&#34;pullquote&#34;&gt;Pullquote is a paragraph with class=&#34;pullquote&#34;&lt;/p&gt;
+
+    </code></pre>
 </div>
+
 
 <h2>Horizontal rule</h2>
 <div class="sg-sample">
@@ -195,33 +166,19 @@
 </code></pre>
 </div>
 
-<h2>Preformatted text</h2>
-<div class="sg-sample">
-<pre>
-    Tabs and spaces are preserved
-    Often used with code for code examples
-</pre>
-<pre class="sg-code"><code class="language-html">
-&lt;pre&gt;
-    Tabs and spaces are preserved
-    Often used with &lt;code&gt; for code examples
-&lt;/pre&gt;
-</code></pre>
-</div>
-
 <h2>Inline text elements</h2>
 <p>Inline text elements are used within headings, paragraphs and list items to markup and format words and phrases.</p>
-<p><b>The following inline elements are available via the Squiz matrix wysiwyg toolbar:</b></p>
+<h3>The following inline elements are available via the Squiz matrix wysiwyg toolbar</h3>
 <p><code class="language-html">&lt;strong&gt;Strong&lt;/strong&gt;</code> is used to indicate strong importance <strong>visually and aurally</strong>.</p>
 <p><code class="language-html">&lt;em&gt;Emphasis&lt;/em&gt;</code> is used to give text emphasis <em>visually and aurally</em>.</p>
 <p><code class="language-html">&lt;sub&gt;Subscript&lt;/sub&gt;</code> for things like H<sub>2</sub>O <code class="language-html">H&lt;sub&gt;2&lt;/sub&gt;0</code></p>
 <p><code class="language-html">&lt;sup&gt;Superscript&lt;/sup&gt;</code> for things like Nike<sup>™</sup> <code class="language-html">Nike&lt;sup&gt;™&lt;/sup&gt;</code></p>
 <p><code class="language-html">&lt;del&gt;Delete&lt;/del&gt;</code> for indicating an edit: in this case a deletion denoted by a <del>strike through</del> <code class="language-html">&lt;del&gt;strike through&lt;/del&gt;</code> as opposed to an addition - see <code class="language-html">&lt;ins&gt;</code> tag below.</p>
 <p><code class="language-html">&lt;code&gt;Code&lt;/code&gt;</code> for inline code examples: <code>var dog = "poodle";</code> <code class="language-html">&lt;code&gt;var dog = "poodle";&lt;/code&gt;</code>. Often used within <code class="language-html">&lt;pre&gt;</code> tag when multiline code example needed.</p>
-<p><b>Here are more inline elements that can only be added via code view in Squiz matrix:</b></p>
+<h3>Here are more inline elements that can only be added via code view in Squiz matrix</h3>
 <p><code class="language-html">&lt;b&gt;Bold&lt;/b&gt;</code> and <code class="language-html">&lt;i&gt;Italics&lt;/i&gt;</code> are similiar to strong and emphasis but are <b>visual</b> <i>only</i>.</p>
-<p>The <abbr>abbr element</abbr> <code>&lt;abbr&gt;&lt;/abbr&gt;</code></p>
-<p><code class="language-html">&lt;abbr&gt;Abbreviation&lt;/abbr&gt;</code> element represents an abbreviation or acronym.<br> The optional title attribute can provide an expansion or description for the abbreviation. If present, title must contain this full description and nothing else:<br> <abbr title="HyperText Markup Language">HTML</abbr> <code class="language-html">&lt;abbr title="HyperText Markup Language"&gt;HTML&lt;/abbr&gt;</code></p>
+<p><code class="language-html">&lt;abbr&gt;Abbreviation&lt;/abbr&gt;</code> element represents an abbreviation or acronym.</p>
+<p>The optional title attribute can provide an expansion or description for the abbreviation. If present, title must contain this full description and nothing else: <abbr title="HyperText Markup Language">HTML</abbr> <code class="language-html">&lt;abbr title="HyperText Markup Language"&gt;HTML&lt;/abbr&gt;</code></p>
 <p>The <cite>cite element</cite> <code>&lt;cite&gt;&lt;/cite&gt;</code></p>
 <p>The <dfn>dfn element</dfn> <code>&lt;dfn&gt;&lt;/dfn&gt;</code></p>
 <p><dfn title="Title text">dfn element with title</dfn> <code>&lt;dfn title=&quot;Title text&quot;&gt;&lt;/dfn&gt;</code></p>
@@ -237,19 +194,33 @@
 <p>The <var>var element</var> <code>&lt;var&gt;&lt;/var&gt;</code></p>
 
 
-
-                    <div class="clear"></div>
-                </div>
-            </div> 
-        </section>
-        
-
-        <div class="clear"></div>
-    </main>
-    
-
-    </div> 
+    <script
+    src="https://code.jquery.com/jquery-2.2.4.min.js"
+    integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+    crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.5.0/prism.min.js"></script>
+    <script>
+        function setIframeHeight(iframe) {
+        	if (iframe) {
+        		var iframeWin = iframe.contentWindow || iframe.contentDocument.parentWindow;
+        		if (iframeWin.document.body) {
+        			iframe.height = iframeWin.document.documentElement.scrollHeight || iframeWin.document.body.scrollHeight;
+        		}
+        	}
+        };
+        $(window).load(function () {
+            $('iframe').each(function () {
+                var id = $(this).attr('id');
+                setIframeHeight(document.getElementById(id));
+            });
+        });
+        $(window).resize(function () {
+            $('iframe').each(function () {
+                var id = $(this).attr('id');
+                setIframeHeight(document.getElementById(id));
+            });
+        });
+    </script>
 </body>
 
 </html>
