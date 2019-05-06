@@ -263,6 +263,12 @@ background-position: right top; background-repeat: no-repeat;
     font-weight: normal;
     font-style: normal;
     font-stretch: normal; } }
+  .wrapit .activity::after {
+    content: "";
+    display: inline-block;
+    background-image: url("/css/icons/activitysvg");
+    background-repeat: no-repeat;
+    background-size: 1em 1em; }
   .wrapit article, .wrapit aside, .wrapit details, .wrapit figcaption, .wrapit figure, .wrapit footer, .wrapit header, .wrapit main, .wrapit nav, .wrapit section {
     display: block;
     margin: 0; }

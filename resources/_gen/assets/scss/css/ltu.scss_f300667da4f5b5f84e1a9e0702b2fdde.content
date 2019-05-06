@@ -1,4 +1,16 @@
 @charset "UTF-8";
+.activity::after {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  width: 1em;
+  height: 1em;
+  margin-left: 8px;
+  background-image: url("icons/feather/activity.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center; }
+
 @font-face {
   font-family: 'Roboto';
   src: url("https://www.latrobe.edu.au/__data/assets/file/0020/549011/Roboto-Light-webfont.eot");
