@@ -1,4 +1,4 @@
-baseURL: "https://latrobe-ict-web.github.io/style-guide/"
+baseURL: "https://latrobe-ict-web.github.io/design-system/"
 languageCode: en
 title: "La Trobe Design System"
 publishDir: docs
