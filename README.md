@@ -1,5 +1,5 @@
 # style-guide
-This design system is under construction
+## This design system is under construction
 
 https://latrobe-ict-web.github.io/style-guide/
 
