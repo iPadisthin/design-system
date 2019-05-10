@@ -143,7 +143,7 @@ body {
     top: 0;
     right: 0;
     bottom: 0;
-    background-image: url("img/spacing-example-grid.png");
+    background-image: url("spacing-example-grid.png");
 }
 .sg-rule {
     border: 1px solid lightgreen;
