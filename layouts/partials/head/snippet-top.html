@@ -11,10 +11,8 @@
     <link rel="manifest" href="site.webmanifest">
     <link rel="apple-touch-icon" href="icon.png">
     <!-- Place favicon.ico in the root directory -->
-    {{ $options := (dict "targetPath" "/static/css/ltu.css") }}
-    {{ $style := resources.Get "sass/ltu.scss" | resources.ToCSS $options }}
-    <link rel="stylesheet" href="{{ $style.Permalink }}">
-    <!-- <link rel="stylesheet" href="https://latrobe-ict-web.github.io/web-ui-master-files/css/ltu.css"> -->
+
+    <link rel="stylesheet" href="https://latrobe-ict-web.github.io/web-ui-master-files/css/ltu.css">
     <style>
         body:not(.flow_page) #content {
             min-height: auto;
