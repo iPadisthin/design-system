@@ -1,7 +1,7 @@
 # style-guide
 ## This design system is under construction
 
-https://latrobe-ict-web.github.io/style-guide/
+https://latrobe-ict-web.github.io/design-system/
 
 ## Using HUGO static generator
 To use this you must install HUGO: https://gohugo.io/getting-started/installing/
