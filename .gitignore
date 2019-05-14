@@ -39,5 +39,5 @@ Thumbs.db
 # hugo generated files #
 resources
 /docs/ltucss/sass/
-docs/ltucss/.git
-docs/ltucss/.gitignore
+/docs/ltucss/.git
+/docs/ltucss/.gitignore
