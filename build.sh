@@ -13,5 +13,6 @@ sass --no-source-map static/ltucss/sass:static/ltucss/css
 echo -e "\033[0;32mBuilding site...\033[0m"
 hugo
 
+#remove problematic submodule .git file copies
 rm -rf docs/ltucss/.git
 rm -rf docs/ltucss/.gitignore
