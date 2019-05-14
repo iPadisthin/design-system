@@ -12,3 +12,6 @@ sass --no-source-map static/ltucss/sass:static/ltucss/css
 #build Site
 echo -e "\033[0;32mBuilding site...\033[0m"
 hugo
+
+rm -rf docs/ltucss/.git
+rm -rf docs/ltucss/.gitignore
