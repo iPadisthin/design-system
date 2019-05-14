@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Buttons</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.5.0/themes/prism.min.css">
+    <link rel="stylesheet" href="https://latrobe-ict-web.github.io/design-system/css/style-guide.css?v=1557815432">
+</head>
+
+<body>
+    <div class="sg-menu">
+    <label for="sg-menu" class="sg-menu-toggle">Menu</label> Latrobe web design system
+    <input type="checkbox" id="sg-menu" />
+    <nav class="sg-menu-list">
+        <ul>
+            <li><a href="https://latrobe-ict-web.github.io/design-system/">Overview</a></li>
+        </ul>
+        <p>Foundations</p>
+        <ul>
+            <li><a href="https://latrobe-ict-web.github.io/design-system/typography">Typography</a></li>
+            <li><a href="https://latrobe-ict-web.github.io/design-system/grid">Grid</a></li>
+            <li><a href="https://latrobe-ict-web.github.io/design-system/colour">Colour</a></li>
+        </ul>
+        <p>Elements</p>
+        <ul>
+            <li><a href="https://latrobe-ict-web.github.io/design-system/text">Text</a></li>
+            <li><a href="https://latrobe-ict-web.github.io/design-system/buttons">Buttons</a></li>
+        </ul>
+        <p>Components</p>
+        <p>Blocks</p>
+        <ul>
+            <li><a href="https://latrobe-ict-web.github.io/design-system/banner">Banner</a></li>
+        </ul>
+        <p>Templates</p>
+    </nav>
+</div>
+
+
+<h1>Buttons</h1>
+
+    
+
+<div class="sg-sample ">
+    <a class="sg-snippet-file" href="https://latrobe-ict-web.github.io/design-system/code-snippets/buttons/" target="_blank" title="Open in new tab">Preview in new window</a>
+    <iframe id="buttons" src="https://latrobe-ict-web.github.io/design-system/code-snippets/buttons/" style="width: 100%;"></iframe>
+    <pre><code class="language-html">
+&lt;p&gt;&lt;button&gt;Button button&lt;/button&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;ltu-button&#34; href=&#34;&#34; &gt;Ltu Button (a tag)&lt;/a&gt;&lt;/p&gt;
+&lt;p style=&#34;background: #000; padding: 16px;&#34;&gt;&lt;a class=&#34;ltu-button light&#34; href=&#34;&#34; &gt;Ltu Button light (a tag)&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;ltu-button mini&#34; href=&#34;&#34; &gt;Ltu Button mini (a tag)&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;ltu-button mini&#34; href=&#34;mailto:&#34; &gt;Ltu Button mailto (a tag)&lt;/a&gt;&lt;/p&gt;
+&lt;p style=&#34;background: red; padding: 16px;&#34;&gt;&lt;a class=&#34;ltu-button chat&#34; href=&#34;&#34; &gt;Ltu Button chat (a tag)&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;input type=&#34;submit&#34; value=&#34;Input type submit&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;input type=&#34;reset&#34; value=&#34;Input type reset&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;input type=&#34;button&#34; value=&#34;Input type button&#34;&gt;&lt;/p&gt;
+
+
+&lt;button class=&#34;activity&#34;&gt;Button&lt;/button&gt;
+
+    </code></pre>
+</div>
+
+
+
+    <script
+    src="https://code.jquery.com/jquery-2.2.4.min.js"
+    integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+    crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.5.0/prism.min.js"></script>
+    <script>
+        function setIframeHeight(iframe) {
+        	if (iframe) {
+        		var iframeWin = iframe.contentWindow || iframe.contentDocument.parentWindow;
+        		if (iframeWin.document.body) {
+        			iframe.height = iframeWin.document.documentElement.scrollHeight || iframeWin.document.body.scrollHeight;
+        		}
+        	}
+        };
+        $(window).load(function () {
+            $('iframe').each(function () {
+                var id = $(this).attr('id');
+                setIframeHeight(document.getElementById(id));
+            });
+        });
+        $(window).resize(function () {
+            $('iframe').each(function () {
+                var id = $(this).attr('id');
+                setIframeHeight(document.getElementById(id));
+            });
+        });
+    </script>
+</body>
+
+</html>
+
