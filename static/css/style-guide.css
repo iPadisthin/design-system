@@ -8,6 +8,12 @@ h1, h2, h3, h4, h5, h6 {
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
     font-weight: 300;
 }
+table {
+    width: 100%;
+}
+th {
+    text-align: left;
+}
 .sg-menu {
     box-sizing: border-box;
     position: fixed;
