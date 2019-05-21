@@ -3,6 +3,6 @@
     <a class="sg-snippet-file" href="{{ .Site.BaseURL }}{{ $file }}/" target="_blank" title="Open in new tab">Preview in new window</a>
     <iframe id="{{ .Get "snippet" }}" src="{{ .Site.BaseURL }}{{ $file }}/" style="width: 100%;"></iframe>
     <pre><code class="language-html">
-{{ with .Site.GetPage $file }}{{.RawContent}}{{end}}
+{{ with .Site.GetPage $file }}{{ .RawContent }}{{ end }}
     </code></pre>
 </div>

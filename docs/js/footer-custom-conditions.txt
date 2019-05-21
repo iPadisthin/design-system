@@ -1,0 +1,33 @@
+is_subjects REQUEST_URI ^/students/your-course/subjects
+is_atar_wizard REQUEST_URI ^/study/how-to-apply/vtac-applicants/atar-wizard
+is_maps REQUEST_URI $/build/maps
+is_portal_maps REQUEST_URI students/portal/floorplan
+is_categorisation REQUEST_URI ^/categorisation$
+is_course_page REQUEST_URI ^/courses
+is_matrixprd %globals_site_URL% ^https?://matrixprd.latrobe.edu.au
+is_www %globals_site_URL% ^https?://www.latrobe.edu.au
+is_library_home REQUEST_URI ^/library$
+is_fee_calculator_admin REQUEST_URI ^/students/admin/fees-and-money/course/fee-calculator/admin
+is_fee_calculator REQUEST_URI ^/students/admin/fees-and-money/course
+is_enrollement_session_finder REQUEST_URI ^/students/getting-started/new-students/enrol/plugins/enrolment-session-finder
+is_students_home REQUEST_URI ^/students$
+is_news_create_media_release REQUEST_URI ^/news/create/media-release
+is_news_create_opinion REQUEST_URI ^/news/create/opinion-piece
+is_news_create_podcast REQUEST_URI ^/news/create/new-podcasts
+is_news_create_image REQUEST_URI ^/news/create/key-image
+is_flow_page %asset_metadata_lyout% flow_page
+is_course_search %asset_assetid% 254673
+is_scholarships_home REQUEST_URI ^/scholarships$
+is_staff_directory REQUEST_URI ^/directory
+is_add_announcement REQUEST_URI ^/tools/news-add-announcement
+is_library_collection_strengths REQUEST_URI ^/library/research-support/collection-strengths
+is_library_new_titles REQUEST_URI ^/library/borrowing/borrowing-at-la-trobe/new-titles
+is_custom_form_or_quiz asset type Custom form or Online quiz
+is_single_event asset type Single calendar event
+is_staff_profile_form REQUEST_URI ^/staff-profiles
+is_orientation_planner REQUEST_URI ^/students/getting-started/orientation/orientation-planner
+is_home_page %asset_name% home
+is_courses_home %asset_assetid% 254673
+is_library_page %globals_site_name% Library
+is_course_campaign REQUEST_URI ^/courses/.+view=campaign
+is_study_option %asset_metadata_layout% study_option
